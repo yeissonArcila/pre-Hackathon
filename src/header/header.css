@@ -1,0 +1,64 @@
+#inicio .contenido header{
+    background-color: rgb(33, 28, 28);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    
+};
+
+.contenido-header{   
+     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav {
+    display: flex;
+    list-style: none;
+}
+#links{
+    display: flex;
+}
+.secciones{
+    margin: 0 10px;
+}
+
+#inicio .contenido header .contenido-header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.contenido-header h1{
+    text-align: center;
+    color: yellow;
+}
+
+.contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icono-usuario{
+    width: 35px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.icono{
+    width: 100px;
+    height: 25px;
+}
